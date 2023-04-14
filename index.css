@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logoKeep{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logoKeep svg{
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 50%;
+    
+}
+.logoKeep span:hover{
+    text-decoration: underline;
+}
+
+.logoKeep svg:hover{
+    background-color: rgba(129, 127, 127, 0.25);
+}
+.logoKeep span{
+    cursor: pointer;
+    font-size: 24px;
+    margin-left: 15px;
+
+}
+
+.logoKeep img{
+    cursor: pointer;
+}
+
+.search{
+    background-color: rgba(142, 137, 137, 0.073);
+    width: 700px;
+    border-radius: 10px;
+    height: 54px;
+    display: flex;
+    margin-left: 30px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search input{
+    border: none;
+    height: 100%;
+    width: 80%;
+    background-color:transparent;
+    font-size: 20px;
+
+}
+
+.search svg{
+    margin: 0 20px 0 20px;
+    font-size: 20px;
+    fill: grey;
+}
+
+input:focus{
+    outline: none;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+   
+   
+}
+.icons svg{
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    fill: rgb(86, 86, 86);
+    margin-right: 25px;
+    border-radius: 50%;
+}
+.zaio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 90px;
+}
+
+.zaio div{
+    display: flex;
+    border-radius: 8px;
+    padding: 5px;
+    flex-direction: row;
+    align-items: center;
+}
+.zaio div img{
+    height: 25px;
+    cursor: pointer;
+}
+
+.zaio div span{
+    font-size: 20px;
+    color:  rgba(29, 29, 29, 0.672);;
+}
+.zaio div{
+    border: 1px solid rgba(29, 29, 29, 0.672);
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 67px;
+    border-bottom:  1px solid rgba(128, 128, 128, 0.261);
+}
