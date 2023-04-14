@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>Google keep</title>
 </head>
 
@@ -14,15 +15,15 @@
 
     <nav>
         <div class="logoKeep">
-            <svg focusable="false" viewBox="0 0 24 24">
-                <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
-            </svg>
+            <span class="material-symbols-outlined i">
+                menu
+            </span>
             <img class="gb_Hc gb_Md" src="https://www.gstatic.com/images/branding/product/1x/keep_2020q4_48dp.png"
                 srcset="https://www.gstatic.com/images/branding/product/1x/keep_2020q4_48dp.png 1x, https://www.gstatic.com/images/branding/product/2x/keep_2020q4_48dp.png 2x "
                 alt="" aria-hidden="true" role="presentation" style="width:40px;height:40px">
             <span class="gb_Ld gb_9c">Keep</span>
         </div>
-        
+
         <div class="search">
             <svg focusable="false" height="24px" viewBox="0 0 24 24" width="24px" xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -33,20 +34,19 @@
             <input type="text" placeholder="search">
         </div>
         <div class="icons">
-            <svg focusable="false" viewBox="0 0 24 24">
-                <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
-            </svg>
-            <svg focusable="false" viewBox="0 0 24 24">
-                <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
-            </svg>
-            <svg focusable="false" viewBox="0 0 24 24">
-                <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
-            </svg>
+            <span class="material-symbols-outlined">
+                refresh
+            </span>
+            <span class="material-symbols-outlined">
+                grid_view
+            </span>
+            <span class="material-symbols-outlined">
+                settings
+            </span>
+
         </div>
         <div class="zaio">
-            <svg focusable="false" viewBox="0 0 24 24">
-                <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
-            </svg>
+          
             <div>
                 <img class="gb_Hc gb_Ea gb_Ia"
                     src="https://www.google.com/u/0/ac/images/logo.gif?uid=103412136827661566128&amp;service=google_gsuite"
@@ -54,6 +54,45 @@
                 <span>S</span>
             </div>
     </nav>
+
+    <main>
+        <section class="side">
+            <span class="one two"> <span class="material-symbols-outlined space"> emoji_objects</span><span
+                    class="hide">Notes</span></span>
+            <span class="one"> <span class="material-symbols-outlined space"> notifications</span><span
+                    class="hide">Reminders</span></span>
+            <span class="one"> <span class="material-symbols-outlined space"> edit</span><span class="hide">Edit
+                    labels</span></span>
+            <span class="one"> <span class="material-symbols-outlined space"> archive</span><span
+                    class="hide">Archive</span></span>
+            <span class="one"> <span class="material-symbols-outlined space"> Delete</span><span
+                    class="hide">Bin</span></span>
+
+        </section>
+        <section class="sec">
+            <div class="form">
+                <input type="text" placeholder="Take a note ....">
+                <div>
+
+                    <span class="yes material-symbols-outlined">
+                        check_box
+                    </span>
+                    <span 
+                   title="edit" class="material-symbols-outlined">
+                        brush
+                    </span>
+                    <span class="material-symbols-outlined">
+                        broken_image
+                    </span>
+                </div>
+            </div>
+
+            <div class="bulb">
+                <div class="img"></div>
+                <h2>Notes you add appear here</h2>
+            </div>
+        </section>
+    </main>
     <script src="./script.js"></script>
 </body>
 
